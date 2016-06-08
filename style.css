@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+#content {
+    background-image: url(./KWC2016-Trick-List_ver.1.2.png);
+    background-repeat: no-repeat;
+    background-size: 1024px 731px;
+    padding-top: 83px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+#settings {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    margin: 0;
+    border: 0;
+    background: #fff;
+}
+#trick-table {
+    border-collapse: collapse;
+    width: 987px;
+    /*border: 1px solid #66f;*/
+}
+#trick-table td {
+    /*border: 1px solid #66f;*/
+    width: 10%;
+    height: 64px;
+}
+.frequency-1 {
+    background: #f00;
+    opacity: 0.4;
+}
+.frequency-2 {
+    background: #f00;
+    opacity: 0.2;
+}
+.frequency-3 {
+    background: #ff0;
+    opacity: 0.2;
+}
+.frequency-4 {
+    background: #0f0;
+    opacity: 0.2;
+}
+.frequency-5 {
+    background: #00f;
+    opacity: 0.2;
+}
+#trick-modal .modal-dialog,
+#settings-modal .modal-dialog,
+#delete-modal .modal-dialog {
+    position: absolute;
+    width: 320px;
+}
+#trick-name {
+    padding: 5px 15px;
+} 
+#frequency-note {
+    padding: 5px 15px;
+}
+.modal-body.list-group {
+    margin: 0;
+    padding: 0;
+}
+.modal-body.list-group .list-group-item {
+    border-left-width: 0;
+    border-right-width: 0;
+}
+#frequency-1.list-group-item-danger {
+    background: #e99;
+}
+#frequency-1.list-group-item-danger:hover { 
+    background: #f99;
+}
+#trick-close {
+    text-align: center;
+    border-top: 0;
+}
+#delete-modal .modal-footer button {
+    width: 80px;
+}
